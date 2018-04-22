@@ -1,0 +1,40 @@
+package com.in28minutes.rest.webservices.restfulwebservices.filtering;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(value = { "ignored" })
+public class OtherStaticallyFilteredBean {
+	private String string;
+	private String string2;
+	private String ignored;
+
+	public OtherStaticallyFilteredBean(String string, String string2, String string3) {
+		this.string = string;
+		this.string2 = string2;
+		this.ignored = string3;
+	}
+
+	public String getString() {
+		return string;
+	}
+
+	public void setString(String string) {
+		this.string = string;
+	}
+
+	public String getString2() {
+		return string2;
+	}
+
+	public void setString2(String string2) {
+		this.string2 = string2;
+	}
+
+	public String getIgnored() {
+		return ignored;
+	}
+
+	public void setIgnored(String string3) {
+		this.ignored = string3;
+	}
+}

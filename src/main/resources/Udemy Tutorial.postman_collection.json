@@ -1,0 +1,22 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Udemy Tutorial",
+		"_postman_id": "a88518e8-1e6d-4f6c-0f2c-fe7fbe84f3e0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add User",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

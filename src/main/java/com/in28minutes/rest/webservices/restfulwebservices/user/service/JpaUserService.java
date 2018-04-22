@@ -43,11 +43,11 @@ public class JpaUserService implements UserService {
 		userRepository.deleteById(id);
 	}
 
-	@Override
-	public Optional<List<Post>> findPostsByUserId(int userId) {
-		return userRepository.findById(userId)
-		        .map(User::getPosts);
-	}
+	// @Override
+	// public Optional<List<Post>> findPostsByUser(User userId) {
+	// return userRepository.findById(userId)
+	// .map(User::getPosts);
+	// }
 
 	@Override
 	public void save(Post post) {

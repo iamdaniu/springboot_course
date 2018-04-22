@@ -13,7 +13,7 @@ public interface UserService {
 
 	void deleteById(int id);
 
-	Optional<List<Post>> findPostsByUserId(int userId);
+	// Optional<List<Post>> findPostsByUserId(int userId);
 
 	void save(Post post);
 }

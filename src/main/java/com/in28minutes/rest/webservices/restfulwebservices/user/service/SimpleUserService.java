@@ -62,10 +62,10 @@ public class SimpleUserService implements UserService {
 		findById(id).ifPresent(users::remove);
 	}
 
-	@Override
-	public Optional<List<Post>> findPostsByUserId(int userId) {
-		return Optional.of(Collections.emptyList());
-	}
+	// @Override
+	// public Optional<List<Post>> findPostsByUser(User user) {
+	// return Optional.of(Collections.emptyList());
+	// }
 
 	@Override
 	public void save(Post post) {

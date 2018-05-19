@@ -1,4 +1,4 @@
-package com.in28minutes.microservices.currencconversionservice;
+package com.in28minutes.microservices.currencyconversionservice;
 
 import java.math.BigDecimal;
 

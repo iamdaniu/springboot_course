@@ -15,7 +15,7 @@ public class CurrencyExchangeController {
 	private ExchangeValueRepository repository;
 
 	@GetMapping("/currency-exchange/from/{from}/to/{to}")
-	public ExchangeValue retriveExchangeValue(@PathVariable String from, @PathVariable String to) {
+	public ExchangeValue retrieveExchangeValue(@PathVariable String from, @PathVariable String to) {
 		final ExchangeValue result = repository.findByFromAndTo(from, to);
 		if (result != null) {
 			final String portProperty = environment.getProperty("local.server.port");
